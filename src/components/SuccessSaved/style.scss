@@ -1,0 +1,25 @@
+.success{
+    position: sticky;
+    top:120px;
+    left:400px;
+    height: 200px;
+    width:300px;
+    border-radius: 20px;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding:10px;
+    justify-content: center;
+    border:2px solid black;
+    background-color: white;
+    &-btn{
+        border-radius: 20px;
+        padding:5px;
+    }
+}
+
+.none{
+    display:none;
+}
